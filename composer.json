@@ -1,0 +1,15 @@
+{
+    "name": "will1471/json-extract",
+    "require-dev": {
+        "monolog/monolog": "^1.23",
+        "kherge/box": "^2.7",
+        "squizlabs/php_codesniffer": "^3.3"
+    },
+    "require": {
+        "php": ">=7.2"
+    },
+    "scripts": {
+        "phpcs": "./vendor/bin/phpcs --standard=PSR2 ./src/ ./bin/",
+        "build": "php -d phar.readonly=0 ./vendor/bin/box build -c box.json --verbose"
+    }
+}

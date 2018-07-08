@@ -1,0 +1,12 @@
+{
+  "files": [
+    "src/Collector.php",
+    "src/Lexer.php",
+    "src/Parser.php",
+    "src/Token.php",
+    "src/UnexpectedToken.php"
+  ],
+  "main": "bin/json-extract.php",
+  "output": "json-extract.phar",
+  "stub": true
+}
